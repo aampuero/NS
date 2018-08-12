@@ -1,0 +1,132 @@
+/*
+In NativeScript, the app.css file is where you place CSS rules that
+you would like to apply to your entire application. Check out
+http://docs.nativescript.org/ui/styling for a full list of the CSS
+selectors and properties you can use to style UI components.
+
+/*
+In many cases you may want to use the NativeScript core theme instead
+of writing your own CSS rules. For a full list of class names in the theme
+refer to http://docs.nativescript.org/ui/theme.
+*/
+
+@import '~nativescript-theme-core/css/core.light.css';
+.icon {
+    font-family: 'icomoon';
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.action-bar {
+    background-color: #0080c0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.action-bar .icon.white {
+    padding-left: 0x;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left:0x;
+    padding-top:25px;
+    padding-bottom:25px;
+    background-color:transparent;
+    text-align: center
+}
+
+.white {
+    color: #ffffff;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.table-header {
+    padding: 40px;
+}
+
+.list-group {
+    border-top-color: #444444;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+.activity-indicator-label {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #0080c0;
+}
+
+.btn-primary {
+    background-color: #0080c0;
+    border-color: white;
+    border-width: 1;
+    border-style: solid;
+}
+
+.search-panel {
+    background-color: #0080c0
+}
+
+.search-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.search-panel label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-field {
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 2px;
+    color: #0080c0;
+    margin-left: 0;
+    margin-right: 0;
+    border-width: 0;
+    border-color: transparent;
+    border-style: solid;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.error {
+    color: red;
+    background-color: white;
+    margin-top: 0;
+    padding: 10px;
+    margin-bottom: 0;
+    border-top-width: 1;
+    border-top-color: #ccc;
+    border-top-style: solid;
+}
+
+button.icon.white {
+    background-color: white;
+    padding: 0;
+    box-shadow: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 1;
+    border-color: transparent;
+    color: #0080c0
+}
